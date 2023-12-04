@@ -75,6 +75,7 @@ The other 2 files in lib are just to run the files and tests and cannot be viewe
 cd lab7<enter>
 bash test.sh<enter>
 ```
+![Image](actualsymptom)
 
 ### Description of fixing the bug
 
