@@ -41,7 +41,11 @@ https://www.geeksforgeeks.org/java-program-to-sort-names-in-an-alphabetical-orde
 
 #### Title: Re: Bug Problems 
 #### Category : General
-Thank you i got it to work. This is the code i changed.
+Thank you i got it to work. This is the code i changed and the output. I kept the tests the same because they were ok.
+![Image](codechange)
+![Image](testfinished)
+
+
 
 
 
