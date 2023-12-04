@@ -55,7 +55,8 @@ For example, in the testmerge2() test which is failing. "c" is added to the empt
 - ListExamples.java
 - ListExamplesTests.java
 - test.sh
-- folder called lib with the following files: hamcrest-core-1.3.jar, junit-4.13.2.jar.  
+- folder called lib with the following files: hamcrest-core-1.3.jar, junit-4.13.2.jar.
+- All of the files above are in the same directory called lab7 
 
 #### Contents
 ListExamples.java
