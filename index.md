@@ -1,5 +1,5 @@
 # Lab Report 5
-
+ 
 ## Part 1
 
 Design a debugging scenario, and write your report as a conversation on EdStem. It should have:
