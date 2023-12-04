@@ -25,7 +25,28 @@ Feel free to set this up by cloning and breaking some existing code like the gra
 Heyyyyy I've been having this problem with my code. Please help me I don't know what to do :).This is my symptom when I run ```bash test.sh```
 ![Image](actualsymptom)
 My guess of what it might be is to do with is to do with the order the elements are merging. I've also attached relevant code
-![Image]()
+![Image](initialtest)
+![Image](initialcode)
+
+### TA Response
+
+#### Title : Re: Bug Problems 
+#### Category : General
+Hi, I would try to take a look at the if statement. Are you sure it's sorting the elements in the correct way you want it to? Perhaps try looking into functions that relate to alphabetical order rather than length of strings. 
+
+Perhaps try this link:
+https://www.geeksforgeeks.org/java-program-to-sort-names-in-an-alphabetical-order/
+
+### Student response
+
+#### Title: Re: Bug Problems 
+#### Category : General
+Thank you i got it to work. This is the code i changed.
+
+
+
+
+
 
 
 
