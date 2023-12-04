@@ -23,7 +23,10 @@ Feel free to set this up by cloning and breaking some existing code like the gra
 #### Title : Bug Problems
 ##### Category: General 
 Heyyyyy I've been having this problem with my code. Please help me I don't know what to do :).This is my symptom when I run ```bash test.sh```
-![Image](symptom)
-My guess of what it might be 
+![Image](actualsymptom)
+My guess of what it might be is to do with is to do with the order the elements are merging. I've also attached relevant code
+![Image]()
+
+
 
 
