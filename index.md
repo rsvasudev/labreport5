@@ -45,7 +45,7 @@ Thank you i got it to work. This is the code i changed and the output. I kept th
 ![Image](codechange)
 ![Image](testfinished)
 
-The bug was to do with the fact i was sorting the strings according to length rather than alphabetical order like compareTo does. The link really helped. Therefore, the merge doesn't work as the elements are put in the wrong places. The first test passed,which was rather interesting; this means that my method was working sometimes buit no all the time. As I discovered, my merge fucntion only worked because all the elements in l2 were in front of "x" and "y" in the alphabet. Thus, it sorted the elements correctly by luck as the failure of the if statement meant the code ran the else statemewnt on 2 occasions before exiting the first while loop and thus, "a" and "b" were added first and in the correct order.
+The bug was to do with the fact i was sorting the strings according to length rather than alphabetical order like compareTo does. The link really helped. Therefore, the merge doesn't work as the elements are put in the wrong places. The first test passed,which was rather interesting; this means that my method was working sometimes buit no all the time. As I discovered, my merge fucntion only worked because all the elements in l2 were in front of "x" and "y" in the alphabet. Thus, it sorted the elements correctly by luck. This was because the failure of the if statement meant the code ran the else statemewnt on 2 occasions before exiting the first while loop and thus, "a" and "b" were added first and in the correct order.
 
 For example, in the testmerge2() test which is failing. "c" is added to the empty arraylist before "a" is added as the length of "a" isn't smaller than the length of "c", meaning the else statement code is run in the first while loop when "a" should be added instead. In the same way, due to the nature of the if statement in the while loop, "d" and "e" are added to the empty new arraylist before "a" and any element in l1 is added. Once l2 is emptied in the first while loop, the elements in l1 are added in the second while loop. This results in an output of ```{"c", "d", "e", "a", "b", "c"}``` which is different to the expected output of ```{"a", "b", "c", "c", "d", "e"}```. Thus, there was a bug and the test fails.
 
@@ -72,8 +72,8 @@ The other 2 files in lib are just to run the files and tests and cannot be viewe
 
 ### Lines I ran to trigger the bug 
 ```ruby
-cd lab7
-bash test.sh
+cd lab7<enter>
+bash test.sh<enter>
 ```
 
 ### Description of fixing the bug
